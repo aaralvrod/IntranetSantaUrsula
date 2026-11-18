@@ -1,0 +1,32 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments, including the legacy environment copied with this project
+.venv/
+venv/
+env/
+ENV/
+intranet/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local databases and uploaded/generated files
+*.sqlite3
+*.db
+media/
+staticfiles/
+
+# Editor and operating system files
+.DS_Store
+.idea/
+.vscode/
